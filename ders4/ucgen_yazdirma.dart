@@ -1,12 +1,12 @@
 void main() {
   //  Üçgen Yazdırma
-  for (int sayac = 1; sayac <= 10; sayac++) {
-    print("#" * sayac);
-  }
+  /* for (int sayac = 1; sayac <= 10; sayac++) {
+    print("*" * sayac);
+  } */
 
 ////////////////////////////////////////////////////////////////////////////////
 
-  /* 
+  
   //İçi Boş Üçgen Yazdırma
 
   for (int sayac = 1; sayac <= 10; sayac++) {
@@ -23,5 +23,5 @@ void main() {
       }
     }
     print(satirMetni);
-  } */
+  }
 }
