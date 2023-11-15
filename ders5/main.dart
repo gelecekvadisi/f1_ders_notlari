@@ -36,4 +36,5 @@ void cevreYazdir(int kenar1, int kenar2) {
   return en * boy * yukseklik;
 } */
 
+//  Fat Arrow
 int hacimHesapla(int en, int boy, int yukseklik) => en * boy * yukseklik;

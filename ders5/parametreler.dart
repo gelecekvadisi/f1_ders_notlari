@@ -1,5 +1,5 @@
 void main() {
-  int toplamBakiye = topla(10, 20, 25, 40);
+  int toplamBakiye = topla(10, 20, 30);
   print("Toplam Bakiye: $toplamBakiye");
 
   int carpimDegeri = carp(2, 3, 7);
@@ -7,7 +7,8 @@ void main() {
 
   print("----------------");
 
-  kimlikYazdir("Ahmet", tc: "12345678901", yasi: 30);
+  // kimlikYazdir("Ahmet", tc: "12345678901", yasi: 30);
+  kimlikYazdir(name: "Ayşe");
 }
 
 //  Optional Parameter
@@ -20,12 +21,14 @@ int carp(int sayi2, int sayi1, int sayi3) {
 }
 
 //  İsimlandirilmiş Parametreler (Named Parametes)
-void kimlikYazdir(String name,
-    {String? tc,
-    DateTime? dogumTarihi,
-    DateTime? evlilikTarihi,
-    int? yasi,
-    int? dogumYili}) {
+void kimlikYazdir({
+  required String name,
+  String? tc,
+  DateTime? dogumTarihi,
+  DateTime? evlilikTarihi,
+  int? yasi,
+  int? dogumYili,
+}) {
   print("Adı: $name");
   if (tc != null) {
     print("Tc No: $tc");
