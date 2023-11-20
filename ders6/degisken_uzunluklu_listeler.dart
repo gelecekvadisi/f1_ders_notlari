@@ -1,6 +1,6 @@
 void main() {
   List<String> isimler = [];
-  List isimler2 = List.filled(5, null, growable: true);
+  List isimler2 = List.filled(5, null);
   List<num> sayilar = List.empty(growable: true);
   // List<String> isimler = ["Ahmet", "Mehmet", "Ali"];
 

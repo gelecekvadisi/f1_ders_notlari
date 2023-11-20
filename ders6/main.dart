@@ -5,7 +5,7 @@
 /// Değişken uzunluklu listeler
 
 void main(List<String> args) {
-  List<int> sayilar = List.filled(21, 0); //  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  List<int> sayilar = List.filled(21, 0, growable: true); //  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   print("Sayılar listesi : $sayilar");
   sayilar[0] = 20;
   print("Sayılar listesi : $sayilar");
