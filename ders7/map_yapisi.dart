@@ -25,6 +25,10 @@ void main(List<String> args) {
     "aldığı dersler": ["Matematik", "Türkçe", "Fen"],
   };
 
+  ingilizceTurkceSozluk["pencil"] = "uçlu kalem";
+  print("Pencil karşılığı: ${ingilizceTurkceSozluk["pencil"]}");
+
+
   print(ingilizceTurkceSozluk);
   print(
       "Computer kelimesinin karşılığı: " + ingilizceTurkceSozluk["computer"]!);

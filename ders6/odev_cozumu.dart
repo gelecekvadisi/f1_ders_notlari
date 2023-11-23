@@ -47,8 +47,9 @@ void urunEkle(String urunAdi) {
 }
 
 void urunSil(String urunAdi) {
-  if (urunListesi.contains(urunAdi)) {
-    urunListesi.remove(urunAdi);
+  if (urunListesi.remove(urunAdi)) {
+    print("Ürün silindi: $urunAdi");
+    // urunListesi.remove(urunAdi);
   } else {
     print("Ürün listede yok. Ürün adı: $urunAdi");
   }
